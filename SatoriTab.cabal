@@ -1,13 +1,13 @@
 name:                SatoriTab
 version:             0.1.0.0
-synopsis:            Initial project template from stack
+synopsis:            Generator für Bibliotheken im Rollenspiel "Das Schwarze Auge"
 description:         Please see README.md
-homepage:            http://github.com/githubuser/SatoriTab#readme
-license:             BSD3
+homepage:            http://github.com/Drezil/SatoriTab#readme
+license:             Apache V2.0
 license-file:        LICENSE
-author:              Author name here
-maintainer:          example@example.com
-copyright:           2015 Author Here
+author:              Stefan Dresselhaus
+maintainer:          sdressel@techfak.uni-bielefeld.de
+copyright:           2015 Stefan Dresselhaus
 category:            Web
 build-type:          Simple
 -- extra-source-files:
@@ -32,4 +32,4 @@ executable SatoriTab-output
 
 source-repository head
   type:     git
-  location: https://github.com/githubuser/SatoriTab
+  location: https://github.com/Drezil/SatoriTab
