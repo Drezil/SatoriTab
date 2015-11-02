@@ -10,4 +10,6 @@ import Data.JSString ()
 foreign import javascript unsafe "window.alert($1)" js_alert :: JSString -> IO ()
 
 someFunc :: IO ()
-someFunc = js_alert "Hello from GHCJS!"
+someFunc = do
+    print "Test"
+    js_alert "Hello from GHCJS!"
